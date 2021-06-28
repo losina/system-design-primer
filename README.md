@@ -1,5 +1,99 @@
 *[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) | [العَرَبِيَّة‎](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [বাংলা](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Português do Brasil](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Deutsch](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [ελληνικά](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [עברית](https://github.com/donnemartin/system-design-primer/issues/272) ∙ [Italiano](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [한국어](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [فارسی](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polski](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [русский язык](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Español](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [ภาษาไทย](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Türkçe](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [tiếng Việt](https://github.com/donnemartin/system-design-primer/issues/127) ∙ [Français](https://github.com/donnemartin/system-design-primer/issues/250) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
+**Track Progress Here**
+
+## Index of system design topics
+
+> Summaries of various system design topics, including pros and cons.  **Everything is a trade-off**.
+>
+> Each section contains links to more in-depth resources.
+
+<p align="center">
+  <img src="images/jrUBAF7.png">
+  <br/>
+</p>
+
+* [System design topics: start here](#system-design-topics-start-here) DONE
+    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture) DONE
+    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article) DONE
+    * [Next steps](#next-steps)
+* [Performance vs scalability](#performance-vs-scalability)
+* [Latency vs throughput](#latency-vs-throughput)
+* [Availability vs consistency](#availability-vs-consistency)
+    * [CAP theorem](#cap-theorem)
+        * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
+        * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
+* [Consistency patterns](#consistency-patterns)
+    * [Weak consistency](#weak-consistency)
+    * [Eventual consistency](#eventual-consistency)
+    * [Strong consistency](#strong-consistency)
+* [Availability patterns](#availability-patterns)
+    * [Fail-over](#fail-over)
+    * [Replication](#replication)
+    * [Availability in numbers](#availability-in-numbers)
+* [Domain name system](#domain-name-system)
+* [Content delivery network](#content-delivery-network)
+    * [Push CDNs](#push-cdns)
+    * [Pull CDNs](#pull-cdns)
+* [Load balancer](#load-balancer)
+    * [Active-passive](#active-passive)
+    * [Active-active](#active-active)
+    * [Layer 4 load balancing](#layer-4-load-balancing)
+    * [Layer 7 load balancing](#layer-7-load-balancing)
+    * [Horizontal scaling](#horizontal-scaling)
+* [Reverse proxy (web server)](#reverse-proxy-web-server)
+    * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
+* [Application layer](#application-layer)
+    * [Microservices](#microservices)
+    * [Service discovery](#service-discovery)
+* [Database](#database)
+    * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
+        * [Master-slave replication](#master-slave-replication)
+        * [Master-master replication](#master-master-replication)
+        * [Federation](#federation)
+        * [Sharding](#sharding)
+        * [Denormalization](#denormalization)
+        * [SQL tuning](#sql-tuning)
+    * [NoSQL](#nosql)
+        * [Key-value store](#key-value-store)
+        * [Document store](#document-store)
+        * [Wide column store](#wide-column-store)
+        * [Graph Database](#graph-database)
+    * [SQL or NoSQL](#sql-or-nosql)
+* [Cache](#cache)
+    * [Client caching](#client-caching)
+    * [CDN caching](#cdn-caching)
+    * [Web server caching](#web-server-caching)
+    * [Database caching](#database-caching)
+    * [Application caching](#application-caching)
+    * [Caching at the database query level](#caching-at-the-database-query-level)
+    * [Caching at the object level](#caching-at-the-object-level)
+    * [When to update the cache](#when-to-update-the-cache)
+        * [Cache-aside](#cache-aside)
+        * [Write-through](#write-through)
+        * [Write-behind (write-back)](#write-behind-write-back)
+        * [Refresh-ahead](#refresh-ahead)
+* [Asynchronism](#asynchronism)
+    * [Message queues](#message-queues)
+    * [Task queues](#task-queues)
+    * [Back pressure](#back-pressure)
+* [Communication](#communication)
+    * [Transmission control protocol (TCP)](#transmission-control-protocol-tcp)
+    * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
+    * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
+    * [Representational state transfer (REST)](#representational-state-transfer-rest)
+* [Security](#security)
+* [Appendix](#appendix)
+    * [Powers of two table](#powers-of-two-table)
+    * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
+    * [Additional system design interview questions](#additional-system-design-interview-questions)
+    * [Real world architectures](#real-world-architectures)
+    * [Company architectures](#company-architectures)
+    * [Company engineering blogs](#company-engineering-blogs)
+* [Under development](#under-development)
+* [Credits](#credits)
+* [Contact info](#contact-info)
+* [License](#license)
 **Help [translate](TRANSLATIONS.md) this guide!**
 
 # The System Design Primer
