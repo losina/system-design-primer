@@ -97,9 +97,9 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
   <br/>
 </p>
 
-* [System design topics: start here](#system-design-topics-start-here)
-    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
-    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
+* [System design topics: start here](#system-design-topics-start-here) DONE
+    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture) DONE
+    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article) DONE
     * [Next steps](#next-steps)
 * [Performance vs scalability](#performance-vs-scalability)
 * [Latency vs throughput](#latency-vs-throughput)
