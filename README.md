@@ -13,12 +13,12 @@
   <br/>
 </p>
 
-* [System design topics: start here](#system-design-topics-start-here) DONE
-    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture) DONE
-    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article) DONE
+* [System design topics: start here](#system-design-topics-start-here) DONE :white_check_mark:
+    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture) DONE :white_check_mark:
+    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article) DONE :white_check_mark:
     * [Next steps](#next-steps)
-* [Performance vs scalability](#performance-vs-scalability)
-* [Latency vs throughput](#latency-vs-throughput)
+* [Performance vs scalability](#performance-vs-scalability) (page 9)
+* [Latency vs throughput](#latency-vs-throughput)DONE :white_check_mark:
 * [Availability vs consistency](#availability-vs-consistency)
     * [CAP theorem](#cap-theorem)
         * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
