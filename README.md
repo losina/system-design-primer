@@ -31,7 +31,7 @@
     * [Fail-over](#fail-over)
     * [Replication](#replication)
     * [Availability in numbers](#availability-in-numbers)
-* [Domain name system](#domain-name-system)
+* [Domain name system](#domain-name-system)DONE :white_check_mark:
 * [Content delivery network](#content-delivery-network)
     * [Push CDNs](#push-cdns)
     * [Pull CDNs](#pull-cdns)
