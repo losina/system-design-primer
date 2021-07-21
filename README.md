@@ -41,7 +41,7 @@
     * [Layer 4 load balancing](#layer-4-load-balancing)
     * [Layer 7 load balancing](#layer-7-load-balancing)
     * [Horizontal scaling](#horizontal-scaling)
-* [Reverse proxy (web server)](#reverse-proxy-web-server)
+* [Reverse proxy (web server)](#reverse-proxy-web-server) DONE :white_check_mark:(additional readying not yet)
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
 * [Application layer](#application-layer)
     * [Microservices](#microservices)
