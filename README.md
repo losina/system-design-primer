@@ -1359,11 +1359,18 @@ def set_user(user_id, values):
 ```
 
 Write-through is a slow overall operation due to the write operation, but subsequent reads of just written data are fast.  Users are generally more tolerant of latency when updating data than reading data.  Data in the cache is not stale.
+Ensures fast retrieval while making sure the data is in the backing store and is not lost in case the cache is disrupted.
+
 
 ##### Disadvantage(s): write through
 
 * When a new node is created due to failure or scaling, the new node will not cache entries until the entry is updated in the database.  Cache-aside in conjunction with write through can mitigate this issue.
 * Most data written might never be read, which can be minimized with a TTL.
+* Writing data will experience latency as you have to write to two places every time.
+
+##### What is it good for?
+The write-through policy is good for applications that write and then re-read data frequently. This will result in slightly higher write latency but low read latency. So, it’s ok to spend a bit longer writing once, but then benefit from reading frequently with low latency.
+
 
 #### Write-behind (write-back)
 
