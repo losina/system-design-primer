@@ -586,7 +586,7 @@ AP is a good choice if the business needs allow for [eventual consistency](#even
 
 * [CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/):white_check_mark:
 * [A plain english introduction to CAP theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem):white_check_mark:
-* [CAP FAQ](https://github.com/henryr/cap-faq)
+* [CAP FAQ](https://github.com/henryr/cap-faq) :white_check_mark:
 * [The CAP theorem](https://www.youtube.com/watch?v=k-Yaq8AHlFA)
 
 ## Consistency patterns
