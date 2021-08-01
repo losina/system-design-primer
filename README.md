@@ -1,3 +1,8 @@
+**Things To check out**
+http://www.practicecodinginterview.com/blog/2018/8/18/the-system-design-interview
+
+
+
 * [System design topics: start here](#system-design-topics-start-here) DONE :white_check_mark:
 
 * [Performance vs scalability](#performance-vs-scalability) (page 9)
